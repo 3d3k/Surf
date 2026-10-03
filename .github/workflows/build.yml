@@ -25,6 +25,14 @@ jobs:
       - name: Build
         run: ./gradlew build
 
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Surf-jars
+          path: build/libs/Surf-*.jar
+          if-no-files-found: error
+          retention-days: 30
+
       - name: Release Surf
         uses: marvinpinto/action-automatic-releases@v1.2.1
         with:
