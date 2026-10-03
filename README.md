@@ -1,4 +1,4 @@
-# 🌊 Surf
+# 🌊 An 3d3kfork of Surf 
 
 Surf is a policy-driven illegal item validation and enforcement plugin mainly designed for anarchy-type servers.
 It detects illegal items, blocks invalid item usage, checks abnormal damage, potion effects etc, ensure the fair-play game experience.
